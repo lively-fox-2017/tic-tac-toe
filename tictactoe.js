@@ -4,7 +4,6 @@ function ticTacToe(){
   let countX = 0;
   for (i = 0; i < 3; i++){
     game[i] = [];
-    // console.log(game)
     for (j = 0; j < 3; j++){
       let answer = Math.floor(Math.random() * 10);
       // console.log('ini i',i)
